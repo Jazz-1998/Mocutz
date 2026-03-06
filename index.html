@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Book a haircut with [BARBER NAME]. Fresh fades, beard trims, and clean line-ups." />
+  <title>[BARBER NAME] | Barber</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">✂️ <span>[BARBER NAME]</span></a>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#location">Location</a>
+    </nav>
+    <a class="btn primary" id="bookTop" href="#" target="_blank" rel="noreferrer">Book Now</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="pill">📍 [CITY] • Walk-ins & Appointments</p>
+        <h1>Fresh cuts. Clean fades. <span class="accent">No drama.</span></h1>
+        <p class="sub">
+          I help you look sharp for work, dates, weddings, and everything in-between.
+          Tap “Book Now” and lock in your time.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" id="bookHero" href="#" target="_blank" rel="noreferrer">Book Now</a>
+          <a class="btn ghost" href="#gallery">See Work</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><div class="stat-num">⭐ 5.0</div><div class="stat-label">Client Rating</div></div>
+          <div class="stat"><div class="stat-num">⏱️ Fast</div><div class="stat-label">On-time Appointments</div></div>
+          <div class="stat"><div class="stat-num">💈 Pro</div><div class="stat-label">Fades + Beards</div></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card">
+          <h3>Today’s Availability</h3>
+          <p class="muted">Book ahead to guarantee your slot.</p>
+          <div class="availability">
+            <span>Morning</span><span class="tag">Limited</span>
+            <span>Afternoon</span><span class="tag good">Open</span>
+            <span>Evening</span><span class="tag warn">Filling up</span>
+          </div>
+          <a class="btn primary full" id="bookCard" href="#" target="_blank" rel="noreferrer">Book Now</a>
+          <p class="tiny muted">Or text: <a class="link" id="phoneLink" href="#">[PHONE]</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="strip-inner">
+        <div class="strip-item">✅ Skin fades</div>
+        <div class="strip-item">✅ Beard trims</div>
+        <div class="strip-item">✅ Line-ups</div>
+        <div class="strip-item">✅ Kids cuts</div>
+        <div class="strip-item">✅ Enhancements</div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head">
+        <h2>Services & Pricing</h2>
+        <p class="muted">Simple menu. Clear prices. Tip optional but appreciated.</p>
+      </div>
+
+      <div class="grid cards">
+        <article class="card">
+          <h3>Haircut</h3>
+          <p class="muted">Fade + shape up + style</p>
+          <div class="price">$[XX]</div>
+        </article>
+        <article class="card">
+          <h3>Beard Trim</h3>
+          <p class="muted">Line-up + trim + finish</p>
+          <div class="price">$[XX]</div>
+        </article>
+        <article class="card">
+          <h3>Haircut + Beard</h3>
+          <p class="muted">Full service combo</p>
+          <div class="price">$[XX]</div>
+        </article>
+        <article class="card">
+          <h3>Kids Cut</h3>
+          <p class="muted">Clean, patient, quick</p>
+          <div class="price">$[XX]</div>
+        </article>
+      </div>
+
+      <div class="callout">
+        <div>
+          <h3>Not sure what to book?</h3>
+          <p class="muted">Pick “Haircut” and tell me what you want in the notes. I got you.</p>
+        </div>
+        <a class="btn primary" id="bookServices" href="#" target="_blank" rel="noreferrer">Book Now</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section-head">
+        <h2>Gallery</h2>
+        <p class="muted">Replace these with his best 9 photos.</p>
+      </div>
+
+      <div class="grid gallery">
+        <div class="ph">Add Photo 1</div><div class="ph">Add Photo 2</div><div class="ph">Add Photo 3</div>
+        <div class="ph">Add Photo 4</div><div class="ph">Add Photo 5</div><div class="ph">Add Photo 6</div>
+        <div class="ph">Add Photo 7</div><div class="ph">Add Photo 8</div><div class="ph">Add Photo 9</div>
+      </div>
+
+      <div class="cta-center">
+        <a class="btn ghost" id="igLink" href="#" target="_blank" rel="noreferrer">View Instagram</a>
+      </div>
+    </section>
+
+    <section id="reviews" class="section">
+      <div class="section-head">
+        <h2>Client Love</h2>
+        <p class="muted">Drop in real reviews later (Google / Booksy / texts).</p>
+      </div>
+
+      <div class="grid cards">
+        <article class="card">
+          <p class="quote">“Best fade I’ve had in years. Super clean work.”</p>
+          <p class="muted">— Customer</p>
+        </article>
+        <article class="card">
+          <p class="quote">“On time, professional, and the beard line-up is CRAZY.”</p>
+          <p class="muted">— Customer</p>
+        </article>
+        <article class="card">
+          <p class="quote">“Easy booking, great vibe, consistent results.”</p>
+          <p class="muted">— Customer</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="location" class="section">
+      <div class="section-head">
+        <h2>Location & Hours</h2>
+        <p class="muted">Make it effortless to find him.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Address</h3>
+          <p class="muted">[SHOP NAME]<br>[STREET]<br>[CITY, STATE ZIP]</p>
+          <div class="row">
+            <a class="btn ghost" id="mapsLink" href="#" target="_blank" rel="noreferrer">Open in Maps</a>
+            <a class="btn primary" id="bookLocation" href="#" target="_blank" rel="noreferrer">Book Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Hours</h3>
+          <div class="hours">
+            <div><span>Mon</span><span>[Hours]</span></div>
+            <div><span>Tue</span><span>[Hours]</span></div>
+            <div><span>Wed</span><span>[Hours]</span></div>
+            <div><span>Thu</span><span>[Hours]</span></div>
+            <div><span>Fri</span><span>[Hours]</span></div>
+            <div><span>Sat</span><span>[Hours]</span></div>
+            <div><span>Sun</span><span>[Hours]</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <h2>Ready for a fresh cut?</h2>
+      <p class="muted">Hit Book Now. Show up. Leave sharp.</p>
+      <a class="btn primary" id="bookBottom" href="#" target="_blank" rel="noreferrer">Book Now</a>
+      <p class="tiny muted">Questions? Text <a class="link" id="phoneLink2" href="#">[PHONE]</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="muted">© <span id="year"></span> [BARBER NAME]. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
